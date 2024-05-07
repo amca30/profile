@@ -1,0 +1,135 @@
+body {
+  color: #004F3D;
+}
+h1, h2{
+  font-family: "DM serif Display", serif;
+  color: #004F3D;
+}
+p{
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 300;
+}
+
+h1{
+  font-size: 2.0em;
+}
+
+h2{
+  font-size: 1.4em;
+}
+
+img {
+  border-radius: 50%;
+  width: 200px;
+  margin: 20px;
+}
+
+
+.card-white {
+  display: inline-block;
+  text-align: center;
+  /* justify-items: center; */
+  justify-content: center;
+  width: 80%;
+  /*height: 200px;*/
+  margin: 2% auto;
+  border: solid 1px #004F3D;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+
+.card-intro{
+  /*padding: 2%;*/
+  display: flex;
+  margin: 5px;
+  /*margin: 30 0 auto;*/
+  /*padding: 2%;*/
+}
+
+a{
+  text-decoration: none;
+}
+
+ul>li{
+  display: inline-block;
+  list-style: none;
+  padding: 0px 20px;
+
+}
+.fa-brands {
+  color: #004F3D;
+}
+
+.img-container {
+width: 35%;
+margin : 50px 10px auto;
+/*align-self: center;*/
+
+}
+
+ol{
+  list-style: none;
+  padding: 0px 20px;
+}
+.description {
+  margin: 25px;
+  padding: 30px;
+}
+.description>p {
+margin-bottom: 30px;
+}
+
+.btn-green {
+  background-color: #004F3D;
+  padding: 15px;
+  border-radius: 50px;
+  color:#FFFCF2;
+  font-family: "Merriweather Sans", sans-serif;
+  transition: 0.2 ease;
+}
+
+a:hover{
+  border: 1px solid #004F3D;
+  background-color: #FFFCF2;
+  color: #004F3D;
+}
+
+.tag {
+border-radius: 50px;
+border: 1px solid #004F3D;
+font-weight: 500;
+padding: 10px;
+margin: 10px;
+}
+
+.card-container {
+  display: inline-block;
+  margin: 0 auto;
+  width: 40%;
+}
+
+/* .container {
+  width: 800px;   /* Définit la largeur */
+  margin: 0 auto; /* Définit automatiquement les marges à gauche/droite */
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
